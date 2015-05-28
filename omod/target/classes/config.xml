@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<module configVersion="1.2">
+
+	<!-- Module Properties -->
+	<id>blooddonation</id>
+	<name>blooddonation Module</name>
+	<version>1.0-SNAPSHOT</version>
+	<package>org.openmrs.module.blooddonation</package>
+	<author>ezzy</author>
+	<description>
+		A module to handle the blood donation process
+	</description>
+	<updateURL>https://modules.openmrs.org/modules/download/blooddonation/update.rdf</updateURL>
+	<require_version>1.10.2</require_version>
+	<!-- / Module Properties -->
+
+	
+	<!-- Module Activator -->
+	<activator>org.openmrs.module.blooddonation.blooddonationActivator</activator>
+	
+	
+	<!-- Adds link to admin page -->
+	<extension>
+		<point>org.openmrs.admin.list</point>
+		<class>org.openmrs.module.blooddonation.extension.html.AdminList</class>
+	</extension>
+	
+	<!-- Maps hibernate file's, if present -->
+	<mappingFiles>
+				
+		blooddonation.hbm.xml
+				
+	</mappingFiles>
+
+	<!-- Internationalization -->
+	<!-- All message codes should start with blooddonation. -->
+	<messages>
+		<lang>en</lang>
+		<file>messages.properties</file>
+	</messages>
+	<messages>
+		<lang>fr</lang>
+		<file>messages_fr.properties</file>
+	</messages>
+	<messages>
+		<lang>es</lang>
+		<file>messages_es.properties</file>
+	</messages>
+	<!-- /Internationalization -->
+	<servlet>
+		<servlet-name>forms</servlet-name>
+		<servlet-class>org.openmrs.module.formEntry.web.XsnDownloadServlet</servlet-class>
+	</servlet>
+
+</module>
+
