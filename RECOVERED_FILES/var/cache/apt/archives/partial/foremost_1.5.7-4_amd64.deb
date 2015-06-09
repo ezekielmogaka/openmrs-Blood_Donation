@@ -1,0 +1,1015 @@
+Package: grub-gfxpayload-lists
+Architecture: amd64
+Auto-Installed: 0
+
+Package: libxkbcommon-x11-0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: linux-headers-generic
+Architecture: amd64
+Auto-Installed: 1
+
+Package: os-prober
+Architecture: amd64
+Auto-Installed: 0
+
+Package: linux-image-extra-3.13.0-32-generic
+Architecture: amd64
+Auto-Installed: 1
+
+Package: linux-image-3.13.0-32-generic
+Architecture: amd64
+Auto-Installed: 1
+
+Package: grub-common
+Architecture: amd64
+Auto-Installed: 0
+
+Package: libxcb-keysyms1
+Architecture: amd64
+Auto-Installed: 1
+
+Package: linux-headers-3.13.0-32-generic
+Architecture: amd64
+Auto-Installed: 1
+
+Package: grub2-common
+Architecture: amd64
+Auto-Installed: 0
+
+Package: linux-headers-3.13.0-32
+Architecture: amd64
+Auto-Installed: 1
+
+Package: grub-pc-bin
+Architecture: amd64
+Auto-Installed: 0
+
+Package: grub-pc
+Architecture: amd64
+Auto-Installed: 0
+
+Package: linux-firmware
+Architecture: amd64
+Auto-Installed: 1
+
+Package: linux-image-generic
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libgtkmm-2.4-1c2a
+Architecture: amd64
+Auto-Installed: 1
+
+Package: ant
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libplexus-sec-dispatcher-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libidl-common
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libjsr305-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libjcommander-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: fop
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libcommons-logging-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libplexus-containers-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libbonobo2-common
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libjdom1-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libguava-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libqdox-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libplexus-container-default-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libeasymock-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libfop-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libosgi-core-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libidl0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libcommons-parent-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libplexus-io-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libxml-commons-resolver1.1-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: default-jre
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libmaven-scm-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libsaxon-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libitext1-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libxmlgraphics-commons-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libcommons-codec-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libhttpcore-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libjsch-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: fonts-dejavu-extra
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libcommons-jxpath-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: aspectj
+Architecture: amd64
+Auto-Installed: 1
+
+Package: default-jre-headless
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libplexus-build-api-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: junit4
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libyaml-snake-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libcommons-beanutils-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libasm3-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libmodello-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libgif4
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libwagon-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libcommons-collections3-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libhamcrest-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libgeronimo-jpa-2.0-spec-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libaether-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libgeronimo-osgi-support-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libplexus-classworlds2-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: liblog4j1.2-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: java-wrappers
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libcommons-lang-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libhttpclient-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libclassworlds-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: tzdata-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libjackrabbit-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libcommons-io-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: rhino
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libcommons-cli-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libplexus-ant-factory-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libnetty-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: ant-optional
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libgnome2-common
+Architecture: amd64
+Auto-Installed: 1
+
+Package: junit
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libcommons-vfs-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libnetbeans-cvsclient-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libplexus-utils2-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libaopalliance-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libjline-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libjetty-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libcommons-jexl2-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libservlet3.0-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libganymed-ssh2-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libxalan2-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libcommons-net2-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: openjdk-7-jre-headless
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libsisu-guice-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: ca-certificates-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libatk-wrapper-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: librhino-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libavalon-framework-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libapache-pom-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libgconf2-4
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libplexus-i18n-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libosgi-compendium-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libxerces2-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libxom-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libservlet2.5-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libmaven2-core-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libregexp-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libplexus-interactivity-api-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libatinject-jsr330-api-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libbonobo2-0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libjaxen-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libplexus-utils-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libbsh-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: testng
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libaspectj-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libxml-commons-external-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libosgi-foundation-ee-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libgnomevfs2-common
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libgnome2-0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libjsoup-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libxpp3-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: openjdk-7-jre
+Architecture: amd64
+Auto-Installed: 0
+
+Package: libplexus-interpolation-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libasync-http-client-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libcglib-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libdoxia-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libgnomevfs2-0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libmaven-parent-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libplexus-cli-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libgnome2-bin
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libatk-wrapper-java-jni
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libdom4j-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libcdi-api-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libxpp2-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: liborbit-2-0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libjaxp1.3-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libcommons-httpclient-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: java-common
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libplexus-containers1.5-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libguice-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libcommons-configuration-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libxbean-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libplexus-bsh-factory-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libbsf-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libslf4j-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libbatik-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: bsh
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libgeronimo-interceptor-3.0-spec-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libcommons-digester-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libplexus-classworlds-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libwagon2-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: liborbit2
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libplexus-cipher-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libplexus-archiver-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libsisu-ioc-java
+Architecture: amd64
+Auto-Installed: 1
+
+Package: liberror-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: git-man
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libresid-builder0c2a
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libmpeg2-4
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libdvdread4
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libavformat54
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libcrystalhd3
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libdc1394-22
+Architecture: amd64
+Auto-Installed: 1
+
+Package: liba52-0.7.4
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libmad0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libchromaprint0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libdirectfb-1.2-9
+Architecture: amd64
+Auto-Installed: 1
+
+Package: vlc-plugin-notify
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libsdl-image1.2
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libass4
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libvlccore7
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libdvbpsi8
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libproxy-tools
+Architecture: amd64
+Auto-Installed: 1
+
+Package: vlc-nox
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libupnp6
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libusageenvironment1
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libopenjpeg2
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libebml4
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libts-0.0-0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libxcb-xv0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libcddb2
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libbasicusageenvironment0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libgroupsock1
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libiso9660-8
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libgsm1
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libva1
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libschroedinger-1.0-0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: vlc-data
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libxvidcore4
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libswscale2
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libtar0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libssh2-1
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libtwolame0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libdvdnav4
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libzvbi0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libhogweed2
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libdirac-encoder0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libsdl1.2debian
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libpostproc52
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libdca0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libenca0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libgnutls28
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libxcb-composite0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libmp3lame0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libva-x11-1
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libbluray1
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libzvbi-common
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libvlc5
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libmodplug1
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libavcodec54
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libmatroska6
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libfaad2
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libx264-142
+Architecture: amd64
+Auto-Installed: 1
+
+Package: liblivemedia23
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libvcdinfo0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libaacs0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libsidplay2
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libopus0
+Architecture: amd64
+Auto-Installed: 1
+
+Package: tsconf
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libkate1
+Architecture: amd64
+Auto-Installed: 1
+
+Package: vlc-plugin-pulse
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libavutil52
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libmpcdec6
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libaprutil1
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libaprutil1-dbd-sqlite3
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libaprutil1-ldap
+Architecture: amd64
+Auto-Installed: 1
+
+Package: apache2-data
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libapr1
+Architecture: amd64
+Auto-Installed: 1
+
+Package: apache2-bin
+Architecture: amd64
+Auto-Installed: 1
+
+Package: mysql-server-core-5.5
+Architecture: amd64
+Auto-Installed: 1
+
+Package: mysql-server-5.5
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libaio1
+Architecture: amd64
+Auto-Installed: 1
+
+Package: mysql-client-core-5.5
+Architecture: amd64
+Auto-Installed: 1
+
+Package: php5-common
+Architecture: amd64
+Auto-Installed: 1
+
+Package: mysql-client-5.5
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libhtml-template-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libterm-readkey-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: mysql-common
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libmysqlclient18
+Architecture: amd64
+Auto-Installed: 1
+
+Package: php5-json
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libdbd-mysql-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libdbi-perl
+Architecture: amd64
+Auto-Installed: 1
+
+Package: php5-readline
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libmcrypt4
+Architecture: amd64
+Auto-Installed: 1
+
+Package: php5-cli
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libjs-jquery-mousewheel
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libjs-jquery-metadata
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libjs-jquery-cookie
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libjs-jquery-event-drag
+Architecture: amd64
+Auto-Installed: 1
+
+Package: dbconfig-common
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libjs-jquery
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libjs-jquery-ui
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libjs-underscore
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libjs-jquery-tablesorter
+Architecture: amd64
+Auto-Installed: 1
+
+Package: php-gettext
+Architecture: amd64
+Auto-Installed: 1
+
+Package: libjs-codemirror
+Architecture: amd64
+Auto-Installed: 1
+
+Package: javascript-common
+Architecture: amd64
+Auto-Installed: 1
+
+Package: php5-gd
+Architecture: amd64
+Auto-Installed: 1

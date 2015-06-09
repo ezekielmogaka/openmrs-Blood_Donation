@@ -1,0 +1,22 @@
+Package: doc-base
+Status: install ok half-configured
+Priority: optional
+Section: doc
+Installed-Size: 460
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: all
+Version: 0.10.5
+Config-Version: 0.10.5
+Depends: libuuid-perl, libyaml-tiny-perl
+Suggests: dhelp | dwww | doc-central | yelp | khelpcenter4, rarian-compat
+Conffiles:
+ /etc/doc-base/documents/README efd9c153645bd3e0653eb5b0fbeda91f
+Description: utilities to manage online documentation
+ This package contains utilities to manage documentation installed on
+ a Debian system. It generates a database of document metadata, which
+ other packages such as dwww, dhelp, doc-central, and rarian-compat
+ can use to provide a catalog of available documentation.
+ .
+ For additional information see the Debian doc-base Manual included in
+ this package.
+Original-Maintainer: Robert Luberda <robert@debian.org>

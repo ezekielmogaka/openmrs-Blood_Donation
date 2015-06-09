@@ -1,0 +1,9 @@
+Package: e2fslibs-dev
+Status: install reinstreq unpacked
+Priority: extra
+Section: libdevel
+Installed-Size: 870
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Source: e2fsprogs
+Version: 1.42

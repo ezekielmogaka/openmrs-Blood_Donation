@@ -1,0 +1,9 @@
+Package: foremost
+Status: install ok unpacked
+Priority: optional
+Section: admin
+Installed-Size: 120
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 1.5.7-4
+Depends: libc6 (>= 2.14)

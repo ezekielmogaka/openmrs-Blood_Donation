@@ -1,0 +1,6 @@
+Package: e2fslibs-dev
+Status: install reinstreq half-installed
+Priority: extra
+Section: libdevel
+Architecture: amd64
+Version: 1.42.9-3ubuntu1.2

@@ -1,0 +1,18 @@
+Package: install-info
+Status: install ok installed
+Priority: important
+Section: doc
+Installed-Size: 266
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Multi-Arch: foreign
+Source: texinfo
+Version: 5.2.0.dfsg.1-2
+Replaces: texinfo (<< 4.13a.dfsg.1-2)
+Depends: libc6 (>= 2.14)
+Pre-Depends: dpkg (>= 1.16.1)
+Breaks: texinfo (<< 4.13a.dfsg.1-2)
+Description: Manage installed documentation in info format
+ The install-info utility creates the index of all installed documentation
+ in info format and makes it available to info readers.
+Original-Maintainer: Debian TeX maintainers <debian-tex-maint@lists.debian.org>
