@@ -24,16 +24,26 @@
 	<bean parent="serviceContext">
 		<property name="moduleService">
 			<list>
+<<<<<<< HEAD
 				<value>${project.parent.groupId}.${project.parent.artifactId}.api.BloodDonationManagerService</value>
+=======
+				<value>${project.parent.groupId}.${project.parent.artifactId}.api.blooddonationService</value>
+>>>>>>> a9402d46f00383557e5edc09e4e7b2c64eb23706
 				<bean
 					class="org.springframework.transaction.interceptor.TransactionProxyFactoryBean">
 					<property name="transactionManager">
 						<ref bean="transactionManager" />
 					</property>
 					<property name="target">
+<<<<<<< HEAD
 						<bean class="${project.parent.groupId}.${project.parent.artifactId}.api.impl.BloodDonationManagerServiceImpl">
 							<property name="dao">
 								<bean class="${project.parent.groupId}.${project.parent.artifactId}.api.db.hibernate.HibernateBloodDonationManagerDAO">
+=======
+						<bean class="${project.parent.groupId}.${project.parent.artifactId}.api.impl.blooddonationServiceImpl">
+							<property name="dao">
+								<bean class="${project.parent.groupId}.${project.parent.artifactId}.api.db.hibernate.HibernateblooddonationDAO">
+>>>>>>> a9402d46f00383557e5edc09e4e7b2c64eb23706
 									<property name="sessionFactory">
 										<ref bean="sessionFactory" />
 									</property>
@@ -51,6 +61,7 @@
 			</list>
 		</property>
 	</bean>
+<<<<<<< HEAD
 
 
 	<bean parent="serviceContext">
@@ -86,5 +97,7 @@
 
 
 
+=======
+>>>>>>> a9402d46f00383557e5edc09e4e7b2c64eb23706
 	
 </beans>

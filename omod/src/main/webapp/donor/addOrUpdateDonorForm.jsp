@@ -2,7 +2,11 @@
 <%@ include file="mainMenu.jsp"%>
 <%@ include file="/includes/js_css.jsp" %>
 
+<<<<<<< HEAD
 <openmrs:require privilege="All Blood Bank" otherwise="/login.htm" redirect="/module/blooddonationmanager/main.form" />
+=======
+<openmrs:require privilege="All Blood Bank" otherwise="/login.htm" redirect="/module/blooddonation/main.form" />
+>>>>>>> a9402d46f00383557e5edc09e4e7b2c64eb23706
 
 <br/>
 <div id="wrapper">
@@ -13,11 +17,16 @@
             <div class="boxHeader">Search Donor by Name</div>
             <div>
                 <div>
+<<<<<<< HEAD
                     <div style="margin-top:12px;"><spring:message code="blooddonationmanager.donor.name"/></div>
+=======
+                    <div style="margin-top:12px;"><spring:message code="blooddonation.donor.name"/></div>
+>>>>>>> a9402d46f00383557e5edc09e4e7b2c64eb23706
                     <div style="margin-top:12px;display: inline-table;"><input type="text" id="donorName" name="donorName" value="" onblur="capitalize()" style="min-width:600px;"/></div>
                     <input id="donId" name="donId" type="hidden" value="${donorIdentifier }"></input>
                 </div>
 
+<<<<<<< HEAD
                 <div style="margin-top:12px;"><spring:message code="blooddonationmanager.donor.fatherhusbandname"/></div>
                 <div style="margin-top:12px;display: inline-table;"><input type="text" id="fatherHusbandName" name="fatherHusbandName" value="" onblur="capitalize()" style="width:400px;"/></div><br/>
                 <div style="margin-top:12px;display: inline-table;"><spring:message code="blooddonationmanager.patient.id"/>&nbsp;&nbsp;&nbsp;</div><div style="margin-top:12px;display: inline-table;"><b>${patientIdentifier }</b></div>
@@ -84,6 +93,74 @@
     </div>
 </div>
 </div>
+=======
+				<div style="margin-top:12px;"><spring:message code="blooddonation.donor.fatherhusbandname"/></div>
+				<div style="margin-top:12px;display: inline-table;"><input type="text" id="fatherHusbandName" name="fatherHusbandName" value="" onblur="capitalize()" style="width:400px;"/></div><br/>
+				<div style="margin-top:12px;display: inline-table;"><spring:message code="blooddonation.patient.id"/>&nbsp;&nbsp;&nbsp;</div><div style="margin-top:12px;display: inline-table;"><b>${patientIdentifier }</b></div>
+				<div style="display:none;">
+					<input id="patId" name="patId" type="hidden" value="${patientIdentifier }"></input>
+					<input id="donId" name="donId" type="hidden" value="${donorIdentifier }"></input>
+					<input id="existPat" name="existPat" type="hidden" value=""></input>
+					<input id="existId" name="existId" type="hidden" value=""></input>
+				</div>
+			</div>
+			<div>
+				<div style="margin-top:12px;margin-bottom:2px;display: inline-table;"><spring:message code="blooddonation.donor.id"/>&nbsp;&nbsp;&nbsp;</div><div id="donIdShow" style="margin-top:12px;display: inline-table;"><b>${donorIdentifier }</b></div>
+				<div style="margin-top:12px;display: inline-table;"><input  style="margin-top:12px;display: inline-table;" type="checkbox" name="preregistered" id="preregistered" onchange="openIdField();" value="" ><spring:message code="blooddonation.preregistered.id"/></div>
+				<div style="margin-top:12px; display:none;" id="idField"><input  style="display: inline-table;margin-top:12px;" type="text" id="donorPrepId" name="donorPrepId" value="${donorIdPrefix}" onblur="invalidate();" style="width:300px;"/>&nbsp;&nbsp;&nbsp;
+				<input type="button" id="isValidDonorId" name="isValidDonorId" value="Validate ID"/>
+				<div style="display: inline-table;margin-top:12px;" id="valid" name="valid"></div></div>
+			</div>
+			<div>
+				<div style="display: inline-table;margin-top:12px;"><spring:message code="blooddonation.donor.gender"/></div>
+				<div style="display: inline-table;margin-top:12px;"><select name="gender"><option id="M" value="M">Male</option><option id="F" value="F">Female</option></select></div>
+
+				<div style="display: inline-table;margin-top:12px;"><spring:message code="blooddonation.donor.dob"/></div>
+				<div style="display: inline-table;margin-top:12px;"><input type="text" id="donorDob" name="donorDob" value=""  onblur="magicDate(this);" /></div><div style="display: inline-table;margin-top:12px;" id="dateLongField">&nbsp;</div>
+				<input  style="margin-top:12px;display: inline-table;" type="checkbox" name="dobEstimated" id="dobEstimated" value="yes" ><spring:message code="blooddonation.dob.etimated"/><div id="dateFieldMsg">dd/mm/yyyy</div>
+			</div>
+			<div>
+				<div style="margin-top:12px;"><spring:message code="blooddonation.donor.address1"/></div>
+				<div><input type="text" id="donorAddress1" name="donorAddress1" value="" onblur="validateForm();" style="width:600px;"/></div>
+
+				 <div style="margin-top:12px;"><spring:message code="blooddonation.donor.address2"/></div>
+				<div><input type="text" id="donorAddress2" name="donorAddress2" value=""  style="width:600px;"/></div>
+				<div style="display: none;">
+					<div><spring:message code="blooddonation.donor.cityVillage"/></div>
+					<div><input type="text" id="cityVillage" name="cityVillage" value="" style="width:600px;"/></div>
+					<div><spring:message code="blooddonation.donor.neighborhoodCell"/></div>
+					<div><input type="text" id="neighborhoodCell" name="neighborhoodCell" value="" style="width:600px;"/></div>
+					<div><spring:message code="blooddonation.donor.countyDistrict"/></div>
+					<div><input type="text" id="countyDistrict" name="countyDistrict" value="" style="width:600px;"/></div>
+					<div><spring:message code="blooddonation.donor.townshipDivision"/></div>
+					<div><input type="text" id="townshipDivision" name="townshipDivision" value="" style="width:600px;"/></div>
+					<div><spring:message code="blooddonation.donor.region"/></div>
+					<div><input type="text" id="region" name="region" value="" style="width:600px;"/></div>
+					<div><spring:message code="blooddonation.donor.subregion"/></div>
+					<div><input type="text" id="subregion" name="subregion" value="" style="width:600px;"/></div>
+					<div><spring:message code="blooddonation.donor.stateProvince"/></div>
+					<div><input type="text" id="stateProvince" name="stateProvince" value="" style="width:600px;"/></div>
+					<div><spring:message code="blooddonation.donor.country"/></div>
+					<div><input type="text" id="country" name="country" value="" style="width:600px;"/></div>
+					<div><spring:message code="blooddonation.donor.postalCode"/></div>
+					<div><input type="text" id="postalCode" name="postalCode" value="" style="width:600px;"/></div>	
+				</div>
+			</div>
+			<div> <input  style="margin-top:12px;" id="saveButton" name="saveButton" disabled="true" type="submit" value="<spring:message code="general.save"/>"/> <b id="savemessage" style="display:none; color:red">Already existing!</b> </div>
+		</form>
+
+
+            </div>
+    </div>
+    <!--Right colstart -->
+    <div id="rightCol" style="float:right; width:700px">
+        <div class="box" style="margin-left:4px;">
+            <span class="boxHeader">Matching patients</span>
+            <div id="display" name="display"></div>
+        </div>
+    </div>
+</div>
+>>>>>>> a9402d46f00383557e5edc09e4e7b2c64eb23706
 <script>
     jQuery(document).ready(function(){
 
@@ -92,7 +169,11 @@
 
         jQuery("#donorDob").datepicker({
             showOn: 'button',
+<<<<<<< HEAD
             buttonImage: '${pageContext.request.contextPath}/moduleResources/blooddonationmanagerManager/styles/images/calendar.gif',
+=======
+            buttonImage: '${pageContext.request.contextPath}/moduleResources/blooddonation/styles/images/calendar.gif',
+>>>>>>> a9402d46f00383557e5edc09e4e7b2c64eb23706
             buttonImageOnly: true,
             changeMonth: true,
             changeYear: true,
@@ -126,9 +207,15 @@
     }
 
     //ajax images to show
+<<<<<<< HEAD
     var ajax_load = "<img src='${pageContext.request.contextPath}/moduleResources/blooddonationmanagerManager/scripts/jquery/css/images/ui-anim_basic_16x16.gif' alt='loading...' />";
     var ajax_ok = "<img src='${pageContext.request.contextPath}/moduleResources/blooddonationmanagerManager/scripts/jquery/css/images/right-icon14.gif' alt='loading...' />";
     var ajax_wrong = "<img src='${pageContext.request.contextPath}/moduleResources/blooddonationmanagerManager/scripts/jquery/css/images/wrong-icon5.gif' alt='loading...' />";
+=======
+    var ajax_load = "<img src='${pageContext.request.contextPath}/moduleResources/blooddonation/scripts/jquery/css/images/ui-anim_basic_16x16.gif' alt='loading...' />";
+    var ajax_ok = "<img src='${pageContext.request.contextPath}/moduleResources/blooddonation/scripts/jquery/css/images/right-icon14.gif' alt='loading...' />";
+    var ajax_wrong = "<img src='${pageContext.request.contextPath}/moduleResources/blooddonation/scripts/jquery/css/images/wrong-icon5.gif' alt='loading...' />";
+>>>>>>> a9402d46f00383557e5edc09e4e7b2c64eb23706
 
     //  ajax call for patient name
     var loadUrl = "patient/findDonorByNameOrId.form";
@@ -221,24 +308,41 @@
         var donidentifier = jQuery("#donId").attr('value');
         var birthdate = jQuery("#donorDob").attr('value');
         var address = jQuery("#d<!-- Header & Include -->
+<<<<<<< HEAD
         <%@ include file="/WEB-INF/template/include.jsp"%>
         <%@ include file="/WEB-INF/template/header.jsp"%>
 
         <script type="text/javascript" src="${pageContext.request.contextPath}/moduleResources/blooddonationmanagerManager/scripts/jquery/js/jquery-1.4.2.min.js"></script>
 
 <openmrs:require privilege="Add Donor" otherwise="/login.htm" redirect="/module/blooddonationmanager/main.form" />
+=======
+<%@ include file="/WEB-INF/template/include.jsp"%>
+<%@ include file="/WEB-INF/template/header.jsp"%>
+
+<script type="text/javascript" src="${pageContext.request.contextPath}/moduleResources/blooddonation/scripts/jquery/js/jquery-1.4.2.min.js"></script>
+
+<openmrs:require privilege="Add Donor" otherwise="/login.htm" redirect="/module/blooddonation/main.form" />
+>>>>>>> a9402d46f00383557e5edc09e4e7b2c64eb23706
 
 donor reg
 
 <div id="display" name="display"></div>
 <h2>
+<<<<<<< HEAD
     <spring:message code="blooddonationmanager.add.donor" />
+=======
+    <spring:message code="blooddonation.add.donor" />
+>>>>>>> a9402d46f00383557e5edc09e4e7b2c64eb23706
 </h2>
 <br/>
 <form class="box" id="addDonorForm" method="post">
     <table >
         <tr>
+<<<<<<< HEAD
             <td><spring:message code="blooddonationmanager.donor.name"/></td>
+=======
+            <td><spring:message code="blooddonation.donor.name"/></td>
+>>>>>>> a9402d46f00383557e5edc09e4e7b2c64eb23706
             <td><input type="text" id="donorName" name="donorName" value=""/></td>
         </tr>
     </table>
@@ -258,7 +362,11 @@ donor reg
         jQuery("#donorName").focus();
     });
 
+<<<<<<< HEAD
     var ajax_load = "<img src='${pageContext.request.contextPath}/moduleResources/blooddonationmanagerManager/scripts/jquery/css/images/ui-anim_basic_16x16.gif' alt='loading...' />";
+=======
+    var ajax_load = "<img src='${pageContext.request.contextPath}/moduleResources/blooddonation/scripts/jquery/css/images/ui-anim_basic_16x16.gif' alt='loading...' />";
+>>>>>>> a9402d46f00383557e5edc09e4e7b2c64eb23706
 
     //  load() functions
     var loadUrl = "findDonorByNameOrId.form";

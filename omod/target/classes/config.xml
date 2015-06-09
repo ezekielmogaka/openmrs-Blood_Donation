@@ -3,6 +3,7 @@
 <module configVersion="1.2">
 
 	<!-- Module Properties -->
+<<<<<<< HEAD
 	<id>blooddonationmanager</id>
 	<name>BloodDonationManager Module</name>
 	<version>1.0-SNAPSHOT</version>
@@ -12,30 +13,57 @@
 		Latest blood donation module
 	</description>
 	<updateURL>https://modules.openmrs.org/modules/download/blooddonationmanager/update.rdf</updateURL>
+=======
+	<id>blooddonation</id>
+	<name>blooddonation Module</name>
+	<version>1.0-SNAPSHOT</version>
+	<package>org.openmrs.module.blooddonation</package>
+	<author>ezzy</author>
+	<description>
+		A module to handle the blood donation process
+	</description>
+	<updateURL>https://modules.openmrs.org/modules/download/blooddonation/update.rdf</updateURL>
+>>>>>>> a9402d46f00383557e5edc09e4e7b2c64eb23706
 	<require_version>1.10.2</require_version>
 	<!-- / Module Properties -->
 
 	
 	<!-- Module Activator -->
+<<<<<<< HEAD
 	<activator>org.openmrs.module.blooddonationmanager.BloodDonationManagerActivator</activator>
+=======
+	<activator>org.openmrs.module.blooddonation.blooddonationActivator</activator>
+>>>>>>> a9402d46f00383557e5edc09e4e7b2c64eb23706
 	
 	
 	<!-- Adds link to admin page -->
 	<extension>
 		<point>org.openmrs.admin.list</point>
+<<<<<<< HEAD
 		<class>org.openmrs.module.blooddonationmanager.extension.html.AdminList</class>
+=======
+		<class>org.openmrs.module.blooddonation.extension.html.AdminList</class>
+>>>>>>> a9402d46f00383557e5edc09e4e7b2c64eb23706
 	</extension>
 	
 	<!-- Maps hibernate file's, if present -->
 	<mappingFiles>
 				
+<<<<<<< HEAD
 		BloodDonationManager.hbm.xml
 		Donor.hbm.xml
+=======
+		blooddonation.hbm.xml
+>>>>>>> a9402d46f00383557e5edc09e4e7b2c64eb23706
 				
 	</mappingFiles>
 
 	<!-- Internationalization -->
+<<<<<<< HEAD
 	<!-- All message codes should start with blooddonationmanager. -->
+=======
+	<!-- All message codes should start with blooddonation. -->
+>>>>>>> a9402d46f00383557e5edc09e4e7b2c64eb23706
 	<messages>
 		<lang>en</lang>
 		<file>messages.properties</file>
@@ -49,11 +77,18 @@
 		<file>messages_es.properties</file>
 	</messages>
 	<!-- /Internationalization -->
+<<<<<<< HEAD
 	<mappingFiles>
 		BloodDonationManager.hbm.xml
 		BlooddonationManagerForm.hbm.xml
 		generatedids.hbm.xml
 	</mappingFiles>
+=======
+	<servlet>
+		<servlet-name>forms</servlet-name>
+		<servlet-class>org.openmrs.module.formEntry.web.XsnDownloadServlet</servlet-class>
+	</servlet>
+>>>>>>> a9402d46f00383557e5edc09e4e7b2c64eb23706
 
 </module>
 

@@ -4,6 +4,7 @@
 
 	<parent>
 		<groupId>org.openmrs.module</groupId>
+<<<<<<< HEAD
 		<artifactId>blooddonationmanager</artifactId>
 		<version>1.0-SNAPSHOT</version>
 	</parent>
@@ -12,6 +13,16 @@
 	<packaging>jar</packaging>
 	<name>BloodDonationManager Module OMOD</name>
 	<description>OMOD project for BloodDonationManager</description>
+=======
+		<artifactId>blooddonation</artifactId>
+		<version>1.0-SNAPSHOT</version>
+	</parent>
+
+	<artifactId>blooddonation-omod</artifactId>
+	<packaging>jar</packaging>
+	<name>blooddonation Module OMOD</name>
+	<description>OMOD project for blooddonation</description>
+>>>>>>> a9402d46f00383557e5edc09e4e7b2c64eb23706
 
 	<dependencies>
 

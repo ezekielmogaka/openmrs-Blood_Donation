@@ -3,12 +3,21 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>org.openmrs.module</groupId>
+<<<<<<< HEAD
 	<artifactId>blooddonationmanager</artifactId>
 	<version>1.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>BloodDonationManager Module</name>
 	<description>Latest blood donation module</description>
 	<url>https://wiki.openmrs.org/display/docs/BloodDonationManager+Module+Module</url>
+=======
+	<artifactId>blooddonation</artifactId>
+	<version>1.0-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<name>blooddonation Module</name>
+	<description>A module to handle the blood donation process</description>
+	<url>https://wiki.openmrs.org/display/docs/blooddonation+Module+Module</url>
+>>>>>>> a9402d46f00383557e5edc09e4e7b2c64eb23706
 	
 	<developers>
 		<developer>
@@ -22,9 +31,15 @@
 	</organization>
 
 	<scm>
+<<<<<<< HEAD
 		<connection>scm:svn:https://svn.openmrs.org/openmrs-modules/blooddonationmanager/trunk/</connection>
 		<developerConnection>scm:svn:https://svn.openmrs.org/openmrs-modules/blooddonationmanager/trunk/</developerConnection>
 		<url>https://svn.openmrs.org/openmrs-modules/blooddonationmanager/trunk/</url>
+=======
+		<connection>scm:svn:https://svn.openmrs.org/openmrs-modules/blooddonation/trunk/</connection>
+		<developerConnection>scm:svn:https://svn.openmrs.org/openmrs-modules/blooddonation/trunk/</developerConnection>
+		<url>https://svn.openmrs.org/openmrs-modules/blooddonation/trunk/</url>
+>>>>>>> a9402d46f00383557e5edc09e4e7b2c64eb23706
 	</scm>
 
 	<modules>
